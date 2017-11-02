@@ -1,30 +1,25 @@
- 
+@media screen and (max-width: 1439px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
 @media only screen and ( max-width: 1024px ) {
-	
+
   /* Aquí van los estilos para iPad horizontal */
 
-
-
-	
 }
- 
- 
+
 @media only screen and ( max-width: 768px ) {
-	
+
   /* Aquí van los estilos para iPad vertical */
-	
+
 }
- 
- 
+@media screen and (max-width: 679px){
+
+}
 @media only screen and ( max-width: 480px ) {
-	
+
   /* Aquí van los estilos para iPhone horizontal */
-	
-}
- 
- 
-@media only screen and ( max-width: 320px ) {
-	
-  /* Aquí van los estilos para iPhone vertical */
-	
+
 }
