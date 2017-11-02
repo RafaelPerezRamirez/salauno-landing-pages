@@ -1,0 +1,196 @@
+@font-face{
+    font-family: DINNextRoundedLTPro-Bold;
+    src: url('../fonts/DINNextRoundedLTPro-Bold.otf')
+}
+@font-face{
+    font-family: DINNextRoundedLTPro-Regular;
+    src: url('../fonts/DINNextRoundedLTPro-Regular.otf')
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_1{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/main-bgr.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+}
+.paciente-sect{
+    height: 80vh;
+    width: 45%;
+    margin-top: auto;
+}
+.dialogo-sec{
+    height: 100vh;
+    width: 55%;
+}
+.dialogo-sec-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+
+    transform: translate(-10%, -10%);
+}
+.paciente-sect img{
+    width: 100%;
+    height: 100%;
+}
+.main-logo{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 1%;
+    left: 30%;
+
+
+    -webkit-transform: translate(-50%, -600%);
+    -moz-transform: translate(-50%, -600%);
+    -o-transform: translate(-50%, -600%);
+    transform: translate(-50%, -600%);
+}
+.title-beneficios{
+    width: 100%;
+    padding: 50px;
+    font-family: DINNextRoundedLTPro-Bold;
+}
+.beneficios-sect{
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    color: #00788b;
+    font-size: 20px;
+}
+.item-sect{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    font-family: DINNextRoundedLTPro-Bold;
+}
+.item-sect img{
+    width: 120px;
+    height: 120px;
+}
+.item-sect p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.beneficio-item{
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+}
+.call-action-sect{
+    width: 100%;
+    height: 250px;
+    background: #39c0cb;
+    background-image: url(../img/retina_patt.png);
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+.call-action-sect h1, h3{
+    padding: 10px;
+    font-family: DINNextRoundedLTPro-Bold;
+}
+.convenios-sect{
+    width: 100%;
+    margin-top: 5px;
+    color: #00788b;
+    font-family: DINNextRoundedLTPro-Bold;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.title-convenios{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.convenios-sect-items{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.convenio-item{
+    height: 90px;
+    width: 200px;
+    margin: 3px;
+    vertical-align: middle;
+}
+.convenio-item img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    background: #ffcc09;
+    text-align: center;
+    color: #00788b;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: DINNextRoundedLTPro-Regular;
+}
+.footer *{
+    vertical-align: middle;
+    margin: 5px;
+}
+.footer span{
+    font-family: DINNextRoundedLTPro-Bold;
+}
+.icon-size{
+    width: 20px;
+    height: 20px;
+}
+.button-agenda-cita{
+    display: block;
+    background: #ffcc09;
+    border-radius: 10px;
+    line-height: 42px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0px 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-family: DINNextRoundedLTPro-Bold;
+    letter-spacing: 2px;
+    color: #00788b;
+    -webkit-box-shadow: inset -2px -19px 0px -14px #bf9600;
+    -moz-box-shadow: inset -2px -19px 0px -14px #bf9600;
+    box-shadow: inset -2px -19px 0px -14px #bf9600;
+
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.button-agenda-cita:hover{
+    background: #2dccd3;
+    -webkit-box-shadow: inset -2px -19px 0px -14px #289da2;
+    -moz-box-shadow: inset -2px -19px 0px -14px #289da2;
+    box-shadow: inset -2px -19px 0px -14px #289da2;
+}
+.icon-agenda img {
+    width: 0px;
+    overflow-x: hidden;
+    -webkit-transition: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    transition: 0.15s ease;
+    vertical-align: middle;
+}
+.button-agenda-cita:hover .icon-agenda img{
+    width: 26px;
+    margin-right: 10px;
+}
+
