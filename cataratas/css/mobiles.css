@@ -16,7 +16,7 @@
     height: 100vh;
     background: url(../img/fondo-desktop.jpg);
     background-size: cover;
-    background-position: 60%;
+    background-position:90%;
   }
   /* Sección de Beneficios */
   .beneficios-sect{
@@ -34,8 +34,8 @@
     font-family: DINNextRoundedLTPro-Bold;
   }
   .item-sect img{
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
   }
   .item-sect p{
   font-size: 16px;
@@ -101,7 +101,6 @@
     text-align: left;
     line-height: 33px;
     height: auto;
-    
   }
   .beneficio-item{
     width: 100%;
@@ -113,10 +112,27 @@
     height: 55px;
     margin-left: 27px;
     margin-right: 27px;
-
   }
   .item-sect p{
   font-size: 22px;
   }
-
+}
+@media only screen and ( max-width: 406px ) {
+  .call-action-sect{
+    height: 280px;
+  }
+}
+@media only screen and ( max-width: 396px ) {
+  .item-sect p{
+    font-size: 18px;
+    }
+    .item-sect img{
+      width: 40px;
+      height: 40px;
+      margin-left: 17px;
+      margin-right: 17px;
+    }
+    .call-action-sect{
+      height: 300px;
+    }
 }
