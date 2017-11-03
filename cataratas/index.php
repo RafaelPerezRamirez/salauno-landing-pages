@@ -13,7 +13,7 @@
     <h1>No esperes más, recupera tu visión</h1>
     <h3>Corrige la visión borrosa, la mala visión nocturna, y vuelve a ver colores brillantes.</h3>
         <div>
-            <a href="#" class="button-agenda-cita open-acuity-form" id="agenda">
+            <a href="#" class="button-agenda-cita buton-body open-acuity-form" id="agenda">
                 <div class="icon-agenda"><img src="img/icon-libro.svg" alt="icon-libro">Agenda tu cita</div>
             </a>
         </div>
@@ -30,8 +30,6 @@
         <div class="convenio-item"><img src="img/5-logo-mapfre.jpg" alt="5-logo-mapfre"></div>
         <div class="convenio-item"><img src="img/6-logo-axa.jpg" alt="6-logo-axa"></div>
         <div class="convenio-item"><img src="img/7-logo-ike.jpg" alt="7-logo-ike"></div>
-    </div>
-    <div class="convenios-sect-items">
         <div class="convenio-item"><img src="img/8-logo-sis-nova-seguro.jpg" alt="8-logo-sis-nova-seguro"></div>
         <div class="convenio-item"><img src="img/9-logo-la-latino-seguro.jpg" alt="9-logo-la-latino-seguro"></div>
         <div class="convenio-item"><img src="img/10-logo-inbursa-logo.jpg" alt="10-logo-inbursa-logo"></div>
