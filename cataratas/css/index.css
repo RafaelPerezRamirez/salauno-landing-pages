@@ -1,17 +1,20 @@
-@font-face{
+@font-face {
     font-family: DINNextRoundedLTPro-Bold;
     src: url('../fonts/DINNextRoundedLTPro-Bold.otf')
 }
-@font-face{
+
+@font-face {
     font-family: DINNextRoundedLTPro-Regular;
     src: url('../fonts/DINNextRoundedLTPro-Regular.otf')
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.section_1{
+
+.section_1 {
     width: 100%;
     height: 100vh;
     background: url(../img/fondo-desktop.jpg);
@@ -23,63 +26,65 @@
     display: flex;
     position: relative;
 }
-.paciente-sect{
-    height: 80vh;
-    width: 45%;
-    margin-top: auto;
-}
-.main-logo{
+
+.main-logo {
     width: 200px;
     height: 100px;
     position: relative;
     top: 1%;
     left: 30%;
-
-
     -webkit-transform: translate(-50%, -600%);
     -moz-transform: translate(-50%, -600%);
     -o-transform: translate(-50%, -600%);
     transform: translate(-50%, -600%);
 }
-.title-beneficios{
+
+.title-beneficios {
     width: 100%;
     padding: 50px;
     font-family: DINNextRoundedLTPro-Bold;
-    padding-top: 90px;
 }
-.beneficios-sect{
+
+.beneficios-sect {
     background: #fff;
     width: 100%;
     text-align: center;
     color: #00788b;
     font-size: 20px;
 }
-.item-sect{
+
+.item-sect {
     width: 90%;
     height: 250px;
     display: flex;
     margin: 0 auto;
     font-family: DINNextRoundedLTPro-Bold;
 }
-.item-sect img{
+
+.item-sect img {
     width: 105px;
     height: 105px;
     margin-right: 2px;
 }
-.item-sect p{
+
+.item-sect p {
     font-size: 24px;
     margin-top: 20px;
 }
-img, p{
+
+img,
+p {
     display: inline-block;
     vertical-align: middle;
 }
-.beneficio-item{
+
+.beneficio-item {
     width: 250px;
     height: 250px;
     margin: 2px;
 }
-.call-action-sect{
+
+.call-action-sect {
     width: 100%;
     background: #39c0cb;
     background-image: url(../img/retina_patt.png);
@@ -88,75 +93,92 @@ img, p{
     padding: 75px 0px;
     color: #fff;
 }
-.call-action-sect h1, h3{
+
+.call-action-sect h1,
+h3 {
     padding: 10px;
     font-family: DINNextRoundedLTPro-Bold;
 }
-.call-action-sect h1{
+
+.call-action-sect h1 {
     font-size: 36px;
 }
-.call-action-sect h3{
+
+.call-action-sect h3 {
     font-size: 24px;
     font-family: DINNextRoundedLTPro-Regular;
 }
-.convenios-sect{
+
+.convenios-sect {
     width: 100%;
     margin-top: 5px;
     color: #00788b;
     font-family: DINNextRoundedLTPro-Bold;
     font-size: 22px;
-    padding: 73px 0px;
+    padding: 70px 0px;
 }
-.title-convenios{
+.title-convenios {
     width: 100%;
     text-align: center;
-    padding: 30px;
     font-size: 36px;
+    padding-bottom: 40px;
 }
-.convenios-sect-items{
+
+.convenios-sect-items {
     width: 90%;
     margin: 0 auto;
     text-align: center;
 }
-.convenio-item{
+
+.convenio-item {
     margin: 3px;
     width: 13%;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
 }
-.convenio-item img{
+
+.convenio-item img {
     max-width: 100%;
     height: auto;
 }
-.footer{
+
+.footer,
+.footer-mobile {
     width: 100%;
     background: #ffcc09;
     text-align: center;
     color: #00788b;
-    font-size: 24px;
+    font-size: 20px;
     vertical-align: middle;
     font-family: DINNextRoundedLTPro-Regular;
     padding: 18px 0px;
     padding-bottom: 13px
+
 }
-.footer *{
+
+.footer *,
+.footer-mobile * {
     vertical-align: middle;
     margin: 5px;
+    font-family: DINNextRoundedLTPro-Regular;
 }
-.footer span{
+
+.footer span,
+.footer-mobile span {
     font-family: DINNextRoundedLTPro-Bold;
+    font-size: 28px;
 }
-.icon-size{
+.icon-size {
     width: 20px;
     height: 20px;
 }
-.button-agenda-cita{
+.button-agenda-cita {
     text-align: center;
     display: block;
     background: #ffcc09;
     border-radius: 10px;
-    line-height: 42px;
+    line-height: 40px;
     width: 200px;
     margin: 0 auto;
     margin-top: 20px;
@@ -169,17 +191,18 @@ img, p{
     -webkit-box-shadow: inset -2px -19px 0px -14px #bf9600;
     -moz-box-shadow: inset -2px -19px 0px -14px #bf9600;
     box-shadow: inset -2px -19px 0px -14px #bf9600;
-
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     transition: 0.3s ease;
 }
-.button-agenda-cita:hover{
+
+.button-agenda-cita:hover {
     background: #2dccd3;
     -webkit-box-shadow: inset -2px -19px 0px -14px #289da2;
     -moz-box-shadow: inset -2px -19px 0px -14px #289da2;
     box-shadow: inset -2px -19px 0px -14px #289da2;
 }
+
 .icon-agenda img {
     width: 0px;
     overflow-x: hidden;
@@ -188,15 +211,18 @@ img, p{
     transition: 0.15s ease;
     vertical-align: middle;
 }
-.button-agenda-cita:hover .icon-agenda img{
+
+.button-agenda-cita:hover .icon-agenda img {
     width: 26px;
     margin-right: 10px;
 }
-.info-banner{
+
+.info-banner {
     position: relative;
     width: 50%;
     height: 100vh;
 }
+
 a.logo-salauno {
     position: absolute;
     top: 15%;
@@ -205,9 +231,11 @@ a.logo-salauno {
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
 a.logo-salauno img {
     width: 320px;
 }
+
 .title-baner {
     font-family: DINNextRoundedLTPro-Bold;
     color: #ffcd02;
@@ -220,8 +248,9 @@ a.logo-salauno img {
     transform: translateX(-50%);
     white-space: nowrap;
 }
-.subtitle-baner{
-    font-family: DINNextRoundedLTPro-Regular;
+
+.subtitle-baner {
+    font-family: DINNextRoundedLTPro-Bold;
     font-size: 36px;
     color: white;
     text-align: center;
@@ -233,6 +262,7 @@ a.logo-salauno img {
     transform: translateX(-50%);
     width: 65%;
 }
+
 .button-sala-uno.button-agenda-cita {
     position: absolute;
     bottom: 26%;
@@ -244,9 +274,10 @@ a.logo-salauno img {
     font-size: 25px;
     letter-spacing: 1px;
     cursor: pointer;
-    line-height: 46px;
+    line-height: 40px;
 }
-.hand-icon{
+
+.hand-icon {
     width: 62px;
     height: 74px;
     background-image: url(../img/hand.png);
@@ -258,21 +289,36 @@ a.logo-salauno img {
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
 section.beneficios-sect h1 {
     font-size: 36px;
 }
-.beneficio-item:first-child p, .beneficio-item:nth-child(2) p {
+
+.beneficio-item:first-child p,
+.beneficio-item:nth-child(2) p {
     padding: 0px 35px;
 }
-.buton-body{
+
+.buton-body {
     width: 250px;
     font-size: 24px;
     line-height: 45px;
 }
+
 .title-convenios h1 {
     font-size: 36px;
 }
-.divider-footer {
+
+.divider-footer,
+.footer-mobile {
     padding-left: 3px;
     padding-right: 7px;
+}
+
+.footer-mobile {
+    display: none;
+}
+.text-telefono{
+    font-size: 20px;
+    font-family: DINNextRoundedLTPro-Regular;
 }
