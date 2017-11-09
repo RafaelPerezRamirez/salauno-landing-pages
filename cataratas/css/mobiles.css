@@ -37,11 +37,6 @@
     .button-sala-uno.button-agenda-cita {
         left: 50%;
     }
-    .hand-icon {
-        left: 50%;
-        width: 45px;
-        height: 54px;
-    }
     /* ------------------------------ B E N E F I C I O S---EN 1024PX------------------------------*/
     .beneficio-item:first-child p,
     .beneficio-item:nth-child(2) p {
@@ -158,12 +153,6 @@
     .button-agenda-cita .icon-agenda {
         padding-top: 7px;
     }
-    .hand-icon {
-        bottom: initial;
-        top: 45.5%;
-        left: 35%;
-        zoom: 0.8;
-    }
     .convenios-sect-items {
         display: block;
         text-align: center;
@@ -260,25 +249,6 @@
         left: 50%;
         font-size: 24px;
         top: 25%;
-    }
-    .hand-icon {
-        bottom: initial;
-        top: 45.5%;
-        left: 35%;
-        zoom: 0.8;
-    }
-    /* Icono Mano */
-    .hand-icon {
-        width: 45px;
-        height: 54px;
-        background-image: url(../img/hand.png);
-        background-size: cover;
-        position: absolute;
-        bottom: 15%;
-        left: 38%;
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        transform: translateX(-50%);
     }
     .call-action-sect h1 {
         font-size: 35px;

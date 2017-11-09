@@ -15,43 +15,40 @@
 /* ------------------------------ H E A D E R ------------------------------*/
 .section_1 {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     position: relative;
     display: flex;
 }
 .main-img{
-    width: 60%;
+    width: 62%;
     position: relative;
 }
 .main-img img{
-    height: 100vh;
-    width: 123%;
+    height: 75vh;
     position: absolute;
     right: 0%;
 }
 .info-banner {
     position: relative;
     width: 40%;
-    height: 100vh;
+    height: 75vh;
     z-index: 2;
 }
-.main-logo {
-    width: 200px;
-    height: 100px;
-    position: relative;
-    top: 1%;
-    left: 29%;
-    -webkit-transform: translate(-50%, -600%);
-    -moz-transform: translate(-50%, -600%);
-    -o-transform: translate(-50%, -600%);
-    transform: translate(-50%, -600%);
-}
 .globe-img{
-    width: 157%;
-    top: -2%;
-    right: 30%;
+    width: 136%;
+    top: -15%;
+    right: 5%;
     z-index: 1;
     position: relative;
+}
+a.logo-salauno {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    z-index: 2;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 a.logo-salauno img {
     width: 320px;
@@ -83,6 +80,19 @@ a.logo-salauno img {
     transform: translateX(-50%);
     width: 80%;
 }
+.costo-text{
+    font-family: DINNextRoundedLTPro-Bold;
+    font-size: 36px;
+    z-index: 2;
+    position: absolute;
+    color: #2cccd2;
+    top: 70%;
+    left: 55%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
 .button-agenda-cita {
     text-align: center;
     display: block;
@@ -113,7 +123,7 @@ a.logo-salauno img {
 }
 .button-sala-uno.button-agenda-cita {
     position: absolute;
-    bottom: 26%;
+    bottom: 12%;
     left: 55%;
     z-index: 2;
     -webkit-transform: translateX(-50%);
@@ -136,28 +146,6 @@ a.logo-salauno img {
 .button-agenda-cita:hover .icon-agenda img {
     width: 26px;
     margin-right: 10px;
-}
-a.logo-salauno {
-    position: absolute;
-    top: 10%;
-    left: 60%;
-    z-index: 2;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-.hand-icon {
-    width: 62px;
-    height: 74px;
-    background-image: url(../img/hand.png);
-    background-size: cover;
-    position: absolute;
-    bottom: 15%;
-    left: 55%;
-    z-index: 2;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 /* ------------------------------ B E N E F I C I O S ------------------------------*/
 .title-beneficios {

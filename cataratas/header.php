@@ -23,10 +23,10 @@
         <div class="subtitle-baner">
             Para ver de nuevo <br>el lado brillante de la vida
         </div>
+        <div class="costo-text">Costo 350 MXN</div>
         <div class="button-sala-uno button-agenda-cita">
             <div class="icon-agenda"><img src="img/icon-libro.svg" alt="icon-libro">Agenda tu cita</div>
         </div>
-        <div class="hand-icon"></div>
     </div>
     <div class="main-img">
         <img src="img/main-bgr.jpg">
