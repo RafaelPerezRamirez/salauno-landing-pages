@@ -1,177 +1,87 @@
+/* ------------------------------ G E N E R A L ------------------------------*/
 @font-face {
     font-family: DINNextRoundedLTPro-Bold;
     src: url('../fonts/DINNextRoundedLTPro-Bold.otf')
 }
-
 @font-face {
     font-family: DINNextRoundedLTPro-Regular;
     src: url('../fonts/DINNextRoundedLTPro-Regular.otf')
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* ------------------------------ H E A D E R ------------------------------*/
 .section_1 {
     width: 100%;
     height: 100vh;
-    background: url(../img/fondo-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    -webkit-display: flex;
-    -moz-display: flex;
-    -o-display: flex;
+    position: relative;
     display: flex;
+}
+.main-img{
+    width: 60%;
     position: relative;
 }
-
+.main-img img{
+    height: 100vh;
+    width: 123%;
+    position: absolute;
+    right: 0%;
+}
+.info-banner {
+    position: relative;
+    width: 40%;
+    height: 100vh;
+    z-index: 2;
+}
 .main-logo {
     width: 200px;
     height: 100px;
     position: relative;
     top: 1%;
-    left: 30%;
+    left: 29%;
     -webkit-transform: translate(-50%, -600%);
     -moz-transform: translate(-50%, -600%);
     -o-transform: translate(-50%, -600%);
     transform: translate(-50%, -600%);
 }
-
-.title-beneficios {
-    width: 100%;
-    padding: 50px;
+.globe-img{
+    width: 157%;
+    top: -2%;
+    right: 30%;
+    z-index: 1;
+    position: relative;
+}
+a.logo-salauno img {
+    width: 320px;
+}
+.title-baner {
     font-family: DINNextRoundedLTPro-Bold;
+    color: #ffcd02;
+    font-size: 45px;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    z-index: 2;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
 }
-
-.beneficios-sect {
-    background: #fff;
-    width: 100%;
-    text-align: center;
-    color: #00788b;
-    font-size: 20px;
-}
-
-.item-sect {
-    width: 90%;
-    height: 250px;
-    display: flex;
-    margin: 0 auto;
+.subtitle-baner {
     font-family: DINNextRoundedLTPro-Bold;
-}
-
-.item-sect img {
-    width: 105px;
-    height: 105px;
-    margin-right: 2px;
-}
-
-.item-sect p {
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-img,
-p {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.beneficio-item {
-    width: 250px;
-    height: 250px;
-    margin: 2px;
-}
-
-.call-action-sect {
-    width: 100%;
-    background: #39c0cb;
-    background-image: url(../img/retina_patt.png);
-    margin-top: 5px;
-    text-align: center;
-    padding: 75px 0px;
-    color: #fff;
-}
-
-.call-action-sect h1,
-h3 {
-    padding: 10px;
-    font-family: DINNextRoundedLTPro-Bold;
-}
-
-.call-action-sect h1 {
     font-size: 36px;
-}
-
-.call-action-sect h3 {
-    font-size: 24px;
-    font-family: DINNextRoundedLTPro-Regular;
-}
-
-.convenios-sect {
-    width: 100%;
-    margin-top: 5px;
-    color: #00788b;
-    font-family: DINNextRoundedLTPro-Bold;
-    font-size: 22px;
-    padding: 70px 0px;
-}
-.title-convenios {
-    width: 100%;
+    color: white;
     text-align: center;
-    font-size: 36px;
-    padding-bottom: 40px;
-}
-
-.convenios-sect-items {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.convenio-item {
-    margin: 3px;
-    width: 13%;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.convenio-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-.footer,
-.footer-mobile {
-    width: 100%;
-    background: #ffcc09;
-    text-align: center;
-    color: #00788b;
-    font-size: 20px;
-    vertical-align: middle;
-    font-family: DINNextRoundedLTPro-Regular;
-    padding: 18px 0px;
-    padding-bottom: 13px
-
-}
-
-.footer *,
-.footer-mobile * {
-    vertical-align: middle;
-    margin: 5px;
-    font-family: DINNextRoundedLTPro-Regular;
-}
-
-.footer span,
-.footer-mobile span {
-    font-family: DINNextRoundedLTPro-Bold;
-    font-size: 28px;
-}
-.icon-size {
-    width: 20px;
-    height: 20px;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    z-index: 2;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 80%;
 }
 .button-agenda-cita {
     text-align: center;
@@ -195,78 +105,17 @@ h3 {
     -moz-transition: 0.3s ease;
     transition: 0.3s ease;
 }
-
 .button-agenda-cita:hover {
     background: #2dccd3;
     -webkit-box-shadow: inset -2px -19px 0px -14px #289da2;
     -moz-box-shadow: inset -2px -19px 0px -14px #289da2;
     box-shadow: inset -2px -19px 0px -14px #289da2;
 }
-
-.icon-agenda img {
-    width: 0px;
-    overflow-x: hidden;
-    -webkit-transition: 0.15s ease;
-    -moz-transition: 0.15s ease;
-    transition: 0.15s ease;
-    vertical-align: middle;
-}
-
-.button-agenda-cita:hover .icon-agenda img {
-    width: 26px;
-    margin-right: 10px;
-}
-
-.info-banner {
-    position: relative;
-    width: 50%;
-    height: 100vh;
-}
-
-a.logo-salauno {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-a.logo-salauno img {
-    width: 320px;
-}
-
-.title-baner {
-    font-family: DINNextRoundedLTPro-Bold;
-    color: #ffcd02;
-    font-size: 45px;
-    position: absolute;
-    top: 40%;
-    left: 47%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
-    white-space: nowrap;
-}
-
-.subtitle-baner {
-    font-family: DINNextRoundedLTPro-Bold;
-    font-size: 36px;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 47%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 65%;
-}
-
 .button-sala-uno.button-agenda-cita {
     position: absolute;
     bottom: 26%;
-    left: 47%;
+    left: 55%;
+    z-index: 2;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -276,7 +125,27 @@ a.logo-salauno img {
     cursor: pointer;
     line-height: 40px;
 }
-
+.icon-agenda img {
+    width: 0px;
+    overflow-x: hidden;
+    -webkit-transition: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    transition: 0.15s ease;
+    vertical-align: middle;
+}
+.button-agenda-cita:hover .icon-agenda img {
+    width: 26px;
+    margin-right: 10px;
+}
+a.logo-salauno {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    z-index: 2;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 .hand-icon {
     width: 62px;
     height: 74px;
@@ -284,37 +153,149 @@ a.logo-salauno img {
     background-size: cover;
     position: absolute;
     bottom: 15%;
-    left: 47%;
+    left: 55%;
+    z-index: 2;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-
+/* ------------------------------ B E N E F I C I O S ------------------------------*/
+.title-beneficios {
+    width: 100%;
+    padding: 50px;
+    font-family: DINNextRoundedLTPro-Bold;
+}
+.beneficios-sect {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    color: #00788b;
+    font-size: 20px;
+}
+.item-sect {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    font-family: DINNextRoundedLTPro-Bold;
+}
+.item-sect img {
+    width: 105px;
+    height: 105px;
+    margin-right: 2px;
+}
+.item-sect p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+img,p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.beneficio-item {
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+}
 section.beneficios-sect h1 {
     font-size: 36px;
 }
-
 .beneficio-item:first-child p,
 .beneficio-item:nth-child(2) p {
     padding: 0px 35px;
 }
-
+/* ------------------------------ L L A M A D A ------------------------------*/
+.call-action-sect {
+    width: 100%;
+    background: #39c0cb;
+    background-image: url(../img/retina_patt.png);
+    margin-top: 5px;
+    text-align: center;
+    padding: 75px 0px;
+    color: #fff;
+}
+.call-action-sect h1,h3 {
+    padding: 10px;
+    font-family: DINNextRoundedLTPro-Bold;
+}
+.call-action-sect h1 {
+    font-size: 36px;
+}
+.call-action-sect h3 {
+    font-size: 24px;
+    font-family: DINNextRoundedLTPro-Regular;
+}
 .buton-body {
     width: 250px;
     font-size: 24px;
     line-height: 45px;
 }
-
+/* ------------------------------ C O N V E N I O S ------------------------------*/
+.convenios-sect {
+    width: 100%;
+    margin-top: 5px;
+    color: #00788b;
+    font-family: DINNextRoundedLTPro-Bold;
+    font-size: 22px;
+    padding: 70px 0px;
+}
+.title-convenios {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.convenios-sect-items {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.convenio-item {
+    margin: 3px;
+    width: 13%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.convenio-item img {
+    max-width: 100%;
+    height: auto;
+}
 .title-convenios h1 {
     font-size: 36px;
 }
-
+/* ------------------------------ F O O T E R ------------------------------*/
+.footer, .footer-mobile {
+    width: 100%;
+    background: #ffcc09;
+    text-align: center;
+    color: #00788b;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: DINNextRoundedLTPro-Regular;
+    padding: 18px 0px;
+    padding-bottom: 13px
+}
+.footer *,
+.footer-mobile * {
+    vertical-align: middle;
+    margin: 5px;
+    font-family: DINNextRoundedLTPro-Regular;
+}
+.footer span,
+.footer-mobile span {
+    font-family: DINNextRoundedLTPro-Bold;
+    font-size: 28px;
+}
+.icon-size {
+    width: 20px;
+    height: 20px;
+}
 .divider-footer,
 .footer-mobile {
     padding-left: 3px;
     padding-right: 7px;
 }
-
 .footer-mobile {
     display: none;
 }

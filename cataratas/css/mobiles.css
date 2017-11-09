@@ -1,19 +1,5 @@
-@media only screen and (max-width: 1920px) {
-    .beneficios-sect{
-        width: 100%;
-    }
-    .item-sect{
-        width: 60%;
-        margin: 0 auto;
-    }
-}
-@media only screen and (max-width: 1439px) {
-    .subtitle-baner {
-        width: 70%;
-    }
-}
-
 @media only screen and (max-width: 1200px) {
+    /* ------------------------------ H E A D E R---EN 1200PX------------------------------*/
     .section_1 {
         background-position: right -200px center;
     }
@@ -21,11 +7,8 @@
         width: 85%;
     }
 }
-
 @media only screen and ( max-width: 1024px) {
-    .section_1 {
-        background-position: right -194px center;
-    }
+    /* ------------------------------ H E A D E R---EN 1024PX------------------------------*/
     .section_1 {
         background-position: right -194px center;
     }
@@ -33,16 +16,18 @@
         width: 230px;
     }
     a.logo-salauno {
-        top: 22%;
-        left: 45%;
+        top: 10%;
+        left: 50%;
+        top: 10%;
     }
     .title-baner {
         font-size: 30px;
-        left: 42%;
+        left: 50%;
+        top: 35%;
     }
     .subtitle-baner {
         font-size: 25px;
-        left: 42%;
+        left: 50%;
     }
     .button-agenda-cita {
         font-size: 20px!important;
@@ -50,12 +35,14 @@
         letter-spacing: 0px!important;
     }
     .button-sala-uno.button-agenda-cita {
-        left: 40%;
+        left: 50%;
     }
     .hand-icon {
-        zoom: 0.7;
-        left: 40%;
+        left: 50%;
+        width: 45px;
+        height: 54px;
     }
+    /* ------------------------------ B E N E F I C I O S---EN 1024PX------------------------------*/
     .beneficio-item:first-child p,
     .beneficio-item:nth-child(2) p {
         padding: 0px 0px;
@@ -65,6 +52,22 @@
     }
 }
 
+/* ------------------------------ P O R   A C O M O D A R ------------------------------*/
+
+@media only screen and (min-width: 1400px) {
+    .beneficios-sect{
+        width: 100%;
+    }
+    .item-sect{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1439px) {
+    .subtitle-baner {
+        width: 80%;
+    }
+}
 @media only screen and (max-width: 679px) {
     .section_1 {
         width: 100%;
@@ -178,7 +181,7 @@
         background-position: center;
     }
     .call-action-sect h1 {
-        font-size: 24px;
+        font-size: 24px;    
     }
     .call-action-sect h3 {
         font-size: 21px;
