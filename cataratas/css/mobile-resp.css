@@ -1,0 +1,323 @@
+@media only screen and (max-width: 1200px) {
+    /* ------------------------------ H E A D E R---EN 1200PX------------------------------*/
+    .section_1 {
+        background-position: right -200px center;
+    }
+    .subtitle-baner {
+        width: 85%;
+    }
+}
+@media only screen and ( max-width: 1024px) {
+    /* ------------------------------ H E A D E R---EN 1024PX------------------------------*/
+    .section_1 {
+        background-position: right -194px center;
+    }
+    a.logo-salauno img {
+        width: 230px;
+    }
+    a.logo-salauno {
+        top: 10%;
+        left: 50%;
+        top: 10%;
+    }
+    .title-baner {
+        font-size: 30px;
+        left: 50%;
+        top: 35%;
+    }
+    .subtitle-baner {
+        font-size: 25px;
+        left: 50%;
+    }
+    .button-agenda-cita {
+        font-size: 20px!important;
+        width: 190px!important;
+        letter-spacing: 0px!important;
+    }
+    .button-sala-uno.button-agenda-cita {
+        left: 50%;
+    }
+    /* ------------------------------ B E N E F I C I O S---EN 1024PX------------------------------*/
+    .beneficio-item:first-child p,
+    .beneficio-item:nth-child(2) p {
+        padding: 0px 0px;
+    }
+    .item-sect {
+        width: 98%;
+    }
+}
+
+/* ------------------------------ P O R   A C O M O D A R ------------------------------*/
+
+@media only screen and (min-width: 1400px) {
+    .beneficios-sect{
+        width: 100%;
+    }
+    .item-sect{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1439px) {
+    .subtitle-baner {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 679px) {
+    .section_1 {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/fondo-desktop.jpg);
+        background-size: cover;
+        background-position: 90%;
+    }
+    /* Sección de Beneficios */
+    .beneficios-sect {
+        background: #fff;
+        width: 100%;
+        text-align: center;
+        color: #00788b;
+        font-size: 20px;
+    }
+    .item-sect {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        margin: 0 auto;
+        font-family: DINNextRoundedLTPro-Bold;
+    }
+    .item-sect img {
+        width: 85px;
+        height: 85px;
+    }
+    .item-sect p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    /* Logotipos Seguros */
+    .convenios-sect {
+        width: 100%;
+        margin-top: 5px;
+        color: #00788b;
+        font-family: DINNextRoundedLTPro-Bold;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .title-convenios {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .convenios-sect-items {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .convenio-item img {
+        width: 100%;
+        height: 100%;
+    }
+    a.logo-salauno {
+        top: 3%;
+        left: 50%;
+    }
+    .info-banner {
+        width: 100%;
+    }
+    .title-baner {
+        font-size: 36px;
+        left: 50%;
+        top: 17%;
+    }
+    .subtitle-baner {
+        left: 50%;
+        font-size: 27px;
+        top: 24%;
+    }
+    .button-sala-uno.button-agenda-cita {
+        left: 50%;
+        bottom: initial;
+        top: 33%;
+        width: 300px!important;
+        line-height: 47px;
+        font-size: 33px!important;
+    }
+    .button-agenda-cita .icon-agenda img {
+        overflow-x: initial;
+        width: 32px;
+        margin-right: 10px;
+        position: relative;
+        top: -3px;
+    }
+    .button-agenda-cita .icon-agenda {
+        padding-top: 7px;
+    }
+    .convenios-sect-items {
+        display: block;
+        text-align: center;
+    }
+    .convenio-item {
+        width: 40%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .section_1 {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/fondo-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .call-action-sect h1 {
+        font-size: 24px;    
+    }
+    .call-action-sect h3 {
+        font-size: 21px;
+    }
+    .title-convenios h1 {
+        font-size: 24px;
+    }
+    .footer {
+        display: none;
+    }
+    .footer-mobile {
+        display: block;
+    }
+}
+
+@media only screen and ( max-width: 481px) {
+    .convenio-item {
+        width: 30%;
+    }
+    /* Aquí van los estilos para iPhone horizontal */
+    .title-beneficios {
+        width: 100%;
+        padding: 10px;
+        font-family: DINNextRoundedLTPro-Bold;
+    }
+    .beneficios-sect {
+        background: #fff;
+        width: 100%;
+        text-align: center;
+        color: #00788b;
+        font-size: 17px;
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+    .item-sect {
+        width: 100%;
+        font-family: DINNextRoundedLTPro-Bold;
+        display: block;
+        text-align: left;
+        line-height: 33px;
+        height: auto;
+    }
+    .beneficio-item {
+        width: 100%;
+        height: 55px;
+        margin-top: 5px;
+    }
+    .item-sect img {
+        width: 55px;
+        height: 55px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .item-sect p {
+        font-size: 22px;
+    }
+    .beneficio-item:first-child p,
+    .beneficio-item:nth-child(2) p {
+        padding: 0px 0px;
+    }
+    /* Botón Reservación */
+    .button-sala-uno.button-agenda-cita {
+        left: 50%;
+        bottom: initial;
+        top: 33%;
+        width: 200px !important;
+        line-height: 35px;
+        font-size: 18px !important;
+    }
+    .title-baner {
+        font-size: 33px;
+        left: 50%;
+        top: 17%;
+    }
+    .subtitle-baner {
+        left: 50%;
+        font-size: 24px;
+        top: 25%;
+    }
+    .call-action-sect h1 {
+        font-size: 35px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .call-action-sect h3 {
+        font-size: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .item-sect p {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+}
+@media only screen and ( max-width: 410px) {
+    .item-sect p {
+        font-size: 19px;
+    }
+    .item-sect img {
+        width: 40px;
+        height: 40px;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+    .footer-mobile {
+        font-size: 18px;
+    }
+    .footer-mobile span{
+        font-size: 20px;
+    }
+    .footer-mobile {
+        padding: 10px 0px;
+        padding-bottom: 5px
+    }
+}
+@media only screen and ( max-width: 340px) {
+    .info-banner {
+        zoom: 0.9;
+    }
+    .call-action-sect h1 {
+        font-size: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .call-action-sect h3 {
+        font-size: 23px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .item-sect img {
+        width: 55px;
+        height: 55px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .item-sect p {
+        font-size: 15px;
+    }
+    .footer-mobile {
+        font-size: 16px;
+    }
+    .footer-mobile span{
+        font-size: 18px;
+    }
+    .button-agenda-cita {
+        font-size: 18px!important;
+        width: 190px!important;
+        letter-spacing: 0px!important;
+    }
+}

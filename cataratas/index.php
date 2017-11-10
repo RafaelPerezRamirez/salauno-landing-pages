@@ -41,10 +41,4 @@
 </section>
 
 
-
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-<script src="dist/jquery.smoove.js"></script>
-<script>
-    $('.beneficio-item').smoove({offset:'30%'});
-</script>
 <?php include 'footer.php' ?>
