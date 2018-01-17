@@ -1,0 +1,329 @@
+@font-face {
+    font-family: DINNextRoundedLTPro-Bold;
+    src: url('../fonts/DINNextRoundedLTPro-Bold.otf')
+}
+
+@font-face {
+    font-family: DINNextRoundedLTPro-Light;
+    src: url('../fonts/DINNextRoundedLTPro-Light.otf')
+}
+
+@font-face {
+    font-family: DINNextRoundedLTPro-Medium;
+    src: url('../fonts/DINNextRoundedLTPro-Medium.otf')
+}
+
+@font-face {
+    font-family: DINNextRoundedLTPro-Regular;
+    src: url('../fonts/DINNextRoundedLTPro-Regular.otf')
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fs45 {font-size: 45px;}
+.fs36 {font-size: 36px;}
+.fs32 {font-size: 32px;}
+.fs24 {font-size: 24px;}
+.fs18 {font-size: 18px;}
+
+.dinnB {font-family: DINNextRoundedLTPro-Bold;}
+.dinnL {font-family: DINNextRoundedLTPro-Light;}
+.dinnM {font-family: DINNextRoundedLTPro-Medium;}
+.dinnR {font-family: DINNextRoundedLTPro-Regular;}
+.middle{vertical-align: middle;}
+.inline{display: inline-block;}
+.banner-section {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background: url("../img/back-glaucoma-1.jpg");
+    background-size: 125% 100%;
+    background-position: -115px;
+}
+
+.info-banner-section {
+    width: 50%;
+}
+
+.info-banner {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-logo {
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+.banner-logo img {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.info-titulo{
+    width: 100%;
+    color: #00788b;
+}
+.info-subtitulo{
+    width: 100%;
+    color: #2cccd2;
+}
+.info-const{
+    width: 100%;
+    color: #00788a;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.enfermedades-sect {
+    width: 100%;
+    background: #10798a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title-enfermedades {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-enfermedades h1 {
+    font-family: DINNextRoundedLTPro-Bold;
+    color: #fff;
+    margin-top: 0em;
+}
+
+.enfermedades-item-sect {
+    width: 100%;
+    display: inline-flex;
+}
+
+.enfermedades-item {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.enfermedades-item h4 {
+    color: #fff;
+    font-family: DINNextRoundedLTPro-Bold;
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 24px;
+    
+}
+
+.enfermedades-item p {
+    color: #fff;
+    font-family: DINNextRoundedLTPro-Regular;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 19px;
+}
+
+.enfermedades-item img {
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.confiar-section {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #00788b;
+}
+
+.confiar-titulo {
+    width: 100%;
+    text-align: center;
+}
+
+.confiar-item-sect {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.confiar-item {
+    width: 25%;
+    margin: 2px;
+}
+
+.confiar-item img {
+    width: 100%;
+    height: 100px;
+}
+
+.confiar-info {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.call-action-section {
+    width: 100%;
+    text-align: center;
+    color: #00788b;
+    background: #ffcd02;
+    background-image: url("../img/eye-pattern-landing.png");
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.convenios-sect {
+    width: 100%;
+    margin-top: 5px;
+    color: #00788b;
+    padding: 70px 0px;
+}
+.title-convenios {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.convenios-sect-items {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.convenio-item {
+    margin: 3px;
+    width: 13%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.convenio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer, .footer-mobile {
+    width: 100%;
+    background: #00788b;
+    text-align: center;
+    color: #ffcc09;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: DINNextRoundedLTPro-Regular;
+    padding: 18px 0px;
+    padding-bottom: 13px
+}
+.footer * {
+    vertical-align: middle;
+    margin: 5px;
+}
+.icon-size {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -3px;
+    left: 13px;
+}
+.divider-footer {
+    padding-left: 3px;
+    padding-right: 7px;
+}
+.text-telefono{
+    font-size: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffcc09;
+}
+
+
+
+
+.button-agenda-cita {
+    text-align: center;
+    display: block;
+    background: #ffcc09;
+    border-radius: 10px;
+    width: 220px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: #00788b;
+    -webkit-box-shadow: inset -2px -19px 0px -14px #bf9600;
+    -moz-box-shadow: inset -2px -19px 0px -14px #bf9600;
+    box-shadow: inset -2px -19px 0px -14px #bf9600;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    transition: 0.3s ease;
+
+}
+.button-agenda-cita:hover {
+    background: #ffcc09;
+    -webkit-box-shadow: inset -2px -19px 0px -14px #bf9600;
+    -moz-box-shadow: inset -2px -19px 0px -14px #bf9600;
+    box-shadow: inset -2px -19px 0px -14px #bf9600;
+}
+.button-sala-uno.button-agenda-cita {
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    z-index: 2;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 240px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    line-height: 50px;
+}
+.icon-agenda img {
+    width: 0px;
+    overflow-x: hidden;
+    -webkit-transition: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    transition: 0.15s ease;
+    vertical-align: middle;
+}
+.button-agenda-cita:hover .icon-agenda img {
+    width: 26px;
+}
+.buton-body {
+    width: 220px;
+    background: #00788b;
+    color: #ffcc09 ;
+    margin-top: 25px;
+    -webkit-box-shadow: inset -2px -19px 0px -14px #005f6e ;
+    -moz-box-shadow: inset -2px -19px 0px -14px #005f6e ;
+    box-shadow: inset -2px -19px 0px -14px #005f6e ;
+}
+.buton-body:hover {
+    background: #289da2;
+    -webkit-box-shadow: inset -2px -19px 0px -14px #00788b;
+    -moz-box-shadow: inset -2px -19px 0px -14px #00788b;
+    box-shadow: inset -2px -19px 0px -14px #00788b;
+    
+}

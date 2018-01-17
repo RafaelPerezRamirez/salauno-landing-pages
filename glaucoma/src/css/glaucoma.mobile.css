@@ -1,0 +1,90 @@
+@media only screen and ( max-width: 1439px) {}
+@media only screen and ( max-width: 1201px) {}
+@media only screen and ( max-width: 1025px) {}
+/* ----------------------------------------CAMBIO------------------------------ */
+@media only screen and ( max-width: 801px) {
+    .banner-section {
+        flex-direction: column;
+        background: url("../img/back-glaucoma-mujer-2-mobile.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60% 100%;
+    }
+    .info-banner-section {
+        width: 100%;
+    }
+    .banner-logo {
+        margin-top: 0px;
+        width: 45%;
+        padding-bottom: 15px;
+    }
+    .info-titulo span{
+        font-size: 34px;
+    }
+    .info-subtitulo span{
+        font-size: 24px;
+    }
+    .info-const span{
+        font-size: 24px;
+    }
+    .tipos-item-section {
+        flex-direction: column;
+    }
+    .tipos-item{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom:  20px;
+    }
+    .confiar-item-sect {
+        flex-direction: column;
+    }
+    .confiar-item{
+        width: 100%;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .confiar-item img{
+        width: 40%;
+    }
+    .info-banner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .call-titulo{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .call-subtitulo{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .title-convenios {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .enfermedades-item-sect {
+        display: block;
+    }
+    .enfermedades-item {
+        width: 90%;
+    }
+    .enfermedades-item img{
+        width: 25%;
+        height: 100px;
+
+    }
+    .enfermedades-item h4{
+        text-align: left;
+        width: 65%;
+        float: right;
+    }
+    .enfermedades-item p{
+        text-align: left;
+    }
+}
+@media only screen and ( max-width: 680px) {}
+@media only screen and ( max-width: 479px) {}
+@media only screen and ( max-width: 380px) {}
